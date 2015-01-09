@@ -1,0 +1,4 @@
+PA1: performance improved by unrolling, permutation 
+PA2: parallelized by OpenMP
+PA3: parallelized by CUDA
+PA4: parallelized by MPI
