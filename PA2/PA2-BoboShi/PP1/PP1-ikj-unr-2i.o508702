@@ -1,0 +1,18 @@
+/var/spool/batch/torque/mom_priv/jobs/508702.oak-batch.osc.edu.SC[25]: o-gcc=R1-ikj-unr-2i-gcc.txt: not found [No such file or directory]
+/var/spool/batch/torque/mom_priv/jobs/508702.oak-batch.osc.edu.SC[26]: o-icc=R1-ikj-unr-2i-icc.txt: not found [No such file or directory]
+ 
+--------------------------------------------------------------
+Programming Assignment 2, Problem 1, GCC
+--------------------------------------------------------------
+ 
+ 
+--------------------------------------------------------------
+Programming Assignment 2, Problem 1, ICC
+--------------------------------------------------------------
+ 
+ipo: remark #11001: performing single-file optimizations
+ipo: remark #11006: generating object file /tmp/pbstmp.508702/tmp.bKdp0sGv16/ipo_icc00k3Jm.o
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/libpthread.a(libpthread.o): In function `sem_open':
+(.text+0x764d): warning: the use of `mktemp' is dangerous, better use `mkstemp'
+cp: invalid option -- 'g'
+Try `cp --help' for more information.

@@ -1,0 +1,10 @@
+ 
+--------------------------------------------------------------
+Programming Assignment 3, Problem 1
+--------------------------------------------------------------
+ 
+Matrix Size = 2048
+dimGrid(4,2048), dimBlock(512,1)
+Base Sequential Symm-MatMult: 0.2 GFLOPS; Time = 45.260 sec; 
+25.4 GFLOPS; Time = 0.339 sec; 
+No differences found between base and test versions

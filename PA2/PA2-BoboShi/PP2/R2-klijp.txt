@@ -1,0 +1,82 @@
+Programming Assignment 2, Problem 2, GCC
+Matrix Size = 128
+Base Sequential: 0.3 GFLOPS; Time = 2.461 sec; 
+Maximum threads allowed by system is: 12
+Requesting thrds=1
+2.3 GFLOPS with 1 threads; Time = 0.286 sec; 
+No differences found between base and test versions
+Requesting thrds=2
+3.0 GFLOPS with 2 threads; Time = 0.223 sec; 
+No differences found between base and test versions
+Requesting thrds=3
+3.8 GFLOPS with 3 threads; Time = 0.177 sec; 
+No differences found between base and test versions
+Requesting thrds=4
+4.4 GFLOPS with 4 threads; Time = 0.150 sec; 
+No differences found between base and test versions
+Requesting thrds=5
+4.8 GFLOPS with 5 threads; Time = 0.140 sec; 
+No differences found between base and test versions
+Requesting thrds=6
+5.1 GFLOPS with 6 threads; Time = 0.131 sec; 
+No differences found between base and test versions
+Requesting thrds=7
+5.5 GFLOPS with 7 threads; Time = 0.121 sec; 
+No differences found between base and test versions
+Requesting thrds=8
+5.9 GFLOPS with 8 threads; Time = 0.112 sec; 
+No differences found between base and test versions
+Requesting thrds=9
+6.0 GFLOPS with 9 threads; Time = 0.110 sec; 
+No differences found between base and test versions
+Requesting thrds=10
+6.5 GFLOPS with 10 threads; Time = 0.103 sec; 
+No differences found between base and test versions
+Requesting thrds=11
+6.6 GFLOPS with 11 threads; Time = 0.101 sec; 
+No differences found between base and test versions
+Requesting thrds=12
+5.5 GFLOPS with 12 threads; Time = 0.121 sec; 
+No differences found between base and test versions
+ 
+ 
+Programming Assignment 2, Problem 2, ICC
+Matrix Size = 128
+Base Sequential: 0.3 GFLOPS; Time = 2.217 sec; 
+Maximum threads allowed by system is: 12
+Requesting thrds=1
+2.4 GFLOPS with 1 threads; Time = 0.276 sec; 
+No differences found between base and test versions
+Requesting thrds=2
+3.4 GFLOPS with 2 threads; Time = 0.198 sec; 
+No differences found between base and test versions
+Requesting thrds=3
+4.3 GFLOPS with 3 threads; Time = 0.153 sec; 
+No differences found between base and test versions
+Requesting thrds=4
+5.3 GFLOPS with 4 threads; Time = 0.125 sec; 
+No differences found between base and test versions
+Requesting thrds=5
+5.7 GFLOPS with 5 threads; Time = 0.118 sec; 
+No differences found between base and test versions
+Requesting thrds=6
+6.1 GFLOPS with 6 threads; Time = 0.109 sec; 
+No differences found between base and test versions
+Requesting thrds=7
+6.3 GFLOPS with 7 threads; Time = 0.106 sec; 
+No differences found between base and test versions
+Requesting thrds=8
+6.7 GFLOPS with 8 threads; Time = 0.100 sec; 
+No differences found between base and test versions
+Requesting thrds=9
+7.2 GFLOPS with 9 threads; Time = 0.093 sec; 
+No differences found between base and test versions
+Requesting thrds=10
+7.1 GFLOPS with 10 threads; Time = 0.093 sec; 
+No differences found between base and test versions
+Requesting thrds=11
+7.2 GFLOPS with 11 threads; Time = 0.092 sec; 
+No differences found between base and test versions
+Requesting thrds=12
+6.1 GFLOPS with 12 threads; Time = 0.110 sec; 
+No differences found between base and test versions

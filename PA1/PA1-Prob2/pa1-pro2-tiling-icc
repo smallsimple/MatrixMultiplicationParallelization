@@ -1,0 +1,4 @@
+Tensor Size = 128
+Base-TensorMult: 841.3 MFLOPS; Time = 0.638 sec; 
+Test-TensorMult: 1396.3 MFLOPS; Time = 0.384 sec; 
+No differences found between base and test versions

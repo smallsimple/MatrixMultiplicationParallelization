@@ -1,0 +1,4 @@
+Matrix Size = 4096
+Base Symmetrizer: 157.1 MFLOPS; Time = 0.214 sec; 
+Test version: 239.5 MFLOPS; Time = 0.140 sec; 
+No differences found between base and test versions

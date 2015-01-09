@@ -1,0 +1,33 @@
+# job name 
+#PBS -N PA1-prob1
+
+# wall time hh:mm:ss
+#PBS -l walltime=00:07:00
+
+# nodes and processors
+#PBS -l nodes=1:ppn=1
+
+# output log file
+#PBS -o PA1-prob1.log
+
+# combine output and error in one log file
+#PBS -j oe
+
+# send email when job ends (put email address in .forward file, home dir)
+#PBS -m abe
+
+# shell script
+#PBS -S /bin/bash
+
+# define folders for input and output
+INP=$HOME/PA1/PA1-Prob1
+OUT=$INP/Output
+
+cd $INP
+cp PA1-Prob1_bobo.c $TMPDIR
+cd $TMPDIR
+icc PA1-Prob1_bobo.c -fast -o PA1
+./PA1 > PA1_results
+cp PA1_results $OUT
+ 
+

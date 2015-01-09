@@ -1,0 +1,64 @@
+sieve.c(119): warning #181: argument is incompatible with corresponding format string conversion
+           global_count, n);
+                         ^
+
+sieve.c(123): warning #181: argument is incompatible with corresponding format string conversion
+        printf ("largest prime under %d is: %d\n", n, large_prime);
+                                                   ^
+
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Sieve, 1 processes
+--------------------------------------------------------------
+ 
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (1)  15.660846
+largest prime under 1000000000 is: 999999937
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Sieve, 2 processes
+--------------------------------------------------------------
+ 
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (2)  10.039494
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Sieve, 4 processes
+--------------------------------------------------------------
+ 
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (4)   9.351460
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Sieve, 8 processes
+--------------------------------------------------------------
+ 
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (8)   7.867141
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Sieve, 16 processes
+--------------------------------------------------------------
+ 
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (16)   5.385425
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Sieve, 32 processes
+--------------------------------------------------------------
+ 
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (32)   2.527521
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Sieve, 64 processes
+--------------------------------------------------------------
+ 
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (64)   1.389446
+largest prime under 1000000000 is: 999999937

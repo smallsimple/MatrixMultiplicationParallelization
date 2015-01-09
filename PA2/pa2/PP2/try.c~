@@ -1,0 +1,41 @@
+#include <omp.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/time.h>
+#define N (128)
+
+double A[N],C;
+
+int main(){
+  int i,j;
+  int nthr;
+
+  for(i=0;i<N;i++)
+    A[i]=i;
+
+  C=1;
+
+  for(i=0;i<N;i++)
+    C+=A[i];
+
+  print("orignal  C:%10f\n",C);
+  
+  nthr=4;
+  
+  omp_set_num_threads(nthr);
+
+  for(i=0;i<N;i++)
+    A[i]=i;
+
+  C=1;
+
+#pragma omp parallel
+#pargma omp for 
+  for(i=0;i<N;i++)
+    C+=A[i];
+
+#pragma omp critical 
+  printf("parallel C:%10f\n",C);
+  
+
+}

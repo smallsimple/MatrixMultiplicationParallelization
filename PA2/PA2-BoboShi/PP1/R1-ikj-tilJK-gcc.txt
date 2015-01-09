@@ -1,0 +1,63 @@
+Matrix Size = 2048
+Base Sequential Symm-MatMult: 0.2 GFLOPS; Time = 36.668 sec; 
+Maximum threads allowed by system is: 12
+
+ number of threads:1
+Requesting thrds=1
+1.1 GFLOPS with 1 threads; Time = 7.883 sec; 
+No differences found between base and test versions
+
+ number of threads:2
+Requesting thrds=2
+0.7 GFLOPS with 2 threads; Time = 11.726 sec; 
+No differences found between base and test versions
+
+ number of threads:3
+Requesting thrds=3
+0.7 GFLOPS with 3 threads; Time = 11.630 sec; 
+No differences found between base and test versions
+
+ number of threads:4
+Requesting thrds=4
+0.8 GFLOPS with 4 threads; Time = 11.090 sec; 
+No differences found between base and test versions
+
+ number of threads:5
+Requesting thrds=5
+0.6 GFLOPS with 5 threads; Time = 15.280 sec; 
+No differences found between base and test versions
+
+ number of threads:6
+Requesting thrds=6
+0.5 GFLOPS with 6 threads; Time = 17.035 sec; 
+No differences found between base and test versions
+
+ number of threads:7
+Requesting thrds=7
+0.5 GFLOPS with 7 threads; Time = 18.652 sec; 
+No differences found between base and test versions
+
+ number of threads:8
+Requesting thrds=8
+0.5 GFLOPS with 8 threads; Time = 15.952 sec; 
+No differences found between base and test versions
+
+ number of threads:9
+Requesting thrds=9
+0.4 GFLOPS with 9 threads; Time = 21.906 sec; 
+No differences found between base and test versions
+
+ number of threads:10
+Requesting thrds=10
+0.5 GFLOPS with 10 threads; Time = 16.176 sec; 
+No differences found between base and test versions
+
+ number of threads:11
+Requesting thrds=11
+0.3 GFLOPS with 11 threads; Time = 24.780 sec; 
+No differences found between base and test versions
+
+ number of threads:12
+Requesting thrds=12
+0.3 GFLOPS with 12 threads; Time = 26.127 sec; 
+No differences found between base and test versions

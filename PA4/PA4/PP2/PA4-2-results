@@ -1,0 +1,77 @@
+ 
+--------------------------------------------------------------
+Programming Assignment 4, problem2 fdtd, 1 processes
+--------------------------------------------------------------
+ 
+
+Sequential GFLOPS: 1.7, Time: 9.3
+Minhz=       -3.055476047; Maxhz =      117.505802697; Mean=        0.866054434, RMS =        8.271862954
+seq end!
+MPI parellel GFLOPS: 1.8, Time: 8.9
+mpi_Minhz=    -3.055476047; mpi_Maxhz =   117.505802697; mpi_Mean=     0.866054434, mpi_RMS =     8.271862954
+ 
+--------------------------------------------------------------
+Programming Assignment 4, problem2 fdtd, 2 processes
+--------------------------------------------------------------
+ 
+
+Sequential GFLOPS: 1.7, Time: 9.3
+Minhz=       -3.055476047; Maxhz =      117.505802697; Mean=        0.866054434, RMS =        8.271862954
+seq end!
+MPI parellel GFLOPS: 2.3, Time: 6.9
+mpi_Minhz=    -3.055476047; mpi_Maxhz =   117.505802697; mpi_Mean=     0.866054434, mpi_RMS =     8.271862954
+ 
+--------------------------------------------------------------
+Programming Assignment 4, problem2 fdtd, 4 processes
+--------------------------------------------------------------
+ 
+
+Sequential GFLOPS: 1.6, Time: 9.8
+Minhz=       -3.055476047; Maxhz =      117.505802697; Mean=        0.866054434, RMS =        8.271862954
+seq end!
+MPI parellel GFLOPS: 2.5, Time: 6.5
+mpi_Minhz=    -3.055476047; mpi_Maxhz =   117.505802697; mpi_Mean=     0.866054434, mpi_RMS =     8.271862954
+ 
+--------------------------------------------------------------
+Programming Assignment 4, problem2 fdtd, 8 processes
+--------------------------------------------------------------
+ 
+
+Sequential GFLOPS: 1.7, Time: 9.3
+Minhz=       -3.055476047; Maxhz =      117.505802697; Mean=        0.866054434, RMS =        8.271862954
+seq end!
+MPI parellel GFLOPS: 3.3, Time: 4.9
+mpi_Minhz=    -3.055476047; mpi_Maxhz =   117.505802697; mpi_Mean=     0.866054434, mpi_RMS =     8.271862954
+ 
+--------------------------------------------------------------
+Programming Assignment 4, problem2 fdtd, 16 processes
+--------------------------------------------------------------
+ 
+
+Sequential GFLOPS: 1.6, Time: 9.8
+Minhz=       -3.055476047; Maxhz =      117.505802697; Mean=        0.866054434, RMS =        8.271862954
+seq end!
+MPI parellel GFLOPS: 6.3, Time: 2.5
+mpi_Minhz=    -3.055476047; mpi_Maxhz =   117.505802697; mpi_Mean=     0.866054434, mpi_RMS =     8.271862954
+ 
+--------------------------------------------------------------
+Programming Assignment 4, problem2 fdtd, 32 processes
+--------------------------------------------------------------
+ 
+
+Sequential GFLOPS: 1.7, Time: 9.4
+Minhz=       -3.055476047; Maxhz =      117.505802697; Mean=        0.866054434, RMS =        8.271862954
+seq end!
+MPI parellel GFLOPS: 12.7, Time: 1.3
+mpi_Minhz=    -3.055476047; mpi_Maxhz =   117.505802697; mpi_Mean=     0.866054434, mpi_RMS =     8.271862954
+ 
+--------------------------------------------------------------
+Programming Assignment 4, problem2 fdtd, 64 processes
+--------------------------------------------------------------
+ 
+
+Sequential GFLOPS: 1.6, Time: 9.8
+Minhz=       -3.055476047; Maxhz =      117.505802697; Mean=        0.866054434, RMS =        8.271862954
+seq end!
+MPI parellel GFLOPS: 24.7, Time: 0.6
+mpi_Minhz=    -3.055476047; mpi_Maxhz =   117.505802697; mpi_Mean=     0.866054434, mpi_RMS =     8.271862954

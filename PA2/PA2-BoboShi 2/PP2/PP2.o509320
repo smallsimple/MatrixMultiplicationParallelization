@@ -1,0 +1,17 @@
+ 
+--------------------------------------------------------------
+--------------------------------------------------------------
+ 
+PA2-Prob2-til-unr.c: In function ‘main’:
+PA2-Prob2-til-unr.c:99: error: expected ‘)’ before numeric constant
+/var/spool/batch/torque/mom_priv/jobs/509320.oak-batch.osc.edu.SC[40]: ./a.out: not found [No such file or directory]
+ 
+--------------------------------------------------------------
+--------------------------------------------------------------
+ 
+PA2-Prob2-til-unr.c(99): error: expected a ")"
+  			for (i=ii; i<ii+N/2; i++2)
+  			                        ^
+
+compilation aborted for PA2-Prob2-til-unr.c (code 2)
+/var/spool/batch/torque/mom_priv/jobs/509320.oak-batch.osc.edu.SC[46]: ./a.out: not found [No such file or directory]

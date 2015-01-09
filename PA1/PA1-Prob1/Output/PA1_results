@@ -1,0 +1,4 @@
+Matrix Size = 2048
+Base Symm-MatMult: 222.2 MFLOPS; Time = 38.676 sec; 
+Test Symm-MatMult: 2117.1 MFLOPS; Time = 4.059 sec; 
+No differences found between base and test versions

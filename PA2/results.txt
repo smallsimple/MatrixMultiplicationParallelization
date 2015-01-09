@@ -1,0 +1,184 @@
+ 
+--------------------------------------------------------------
+Programming Assignment 2, Problem 1, GCC
+--------------------------------------------------------------
+ 
+Matrix Size = 2048
+Base Sequential Symm-MatMult: 0.2 GFLOPS; Time = 36.444 sec; 
+Maximum threads allowed by system is: 12
+Requesting thrds=1
+2.0 GFLOPS with 1 threads; Time = 4.221 sec; 
+No differences found between base and test versions
+Requesting thrds=2
+3.9 GFLOPS with 2 threads; Time = 2.187 sec; 
+No differences found between base and test versions
+Requesting thrds=3
+5.3 GFLOPS with 3 threads; Time = 1.615 sec; 
+No differences found between base and test versions
+Requesting thrds=4
+8.0 GFLOPS with 4 threads; Time = 1.073 sec; 
+No differences found between base and test versions
+Requesting thrds=5
+8.0 GFLOPS with 5 threads; Time = 1.076 sec; 
+No differences found between base and test versions
+Requesting thrds=6
+10.2 GFLOPS with 6 threads; Time = 0.845 sec; 
+No differences found between base and test versions
+Requesting thrds=7
+10.2 GFLOPS with 7 threads; Time = 0.845 sec; 
+No differences found between base and test versions
+Requesting thrds=8
+14.6 GFLOPS with 8 threads; Time = 0.589 sec; 
+No differences found between base and test versions
+Requesting thrds=9
+14.6 GFLOPS with 9 threads; Time = 0.589 sec; 
+No differences found between base and test versions
+Requesting thrds=10
+14.6 GFLOPS with 10 threads; Time = 0.589 sec; 
+No differences found between base and test versions
+Requesting thrds=11
+14.6 GFLOPS with 11 threads; Time = 0.589 sec; 
+No differences found between base and test versions
+Requesting thrds=12
+14.6 GFLOPS with 12 threads; Time = 0.590 sec; 
+No differences found between base and test versions
+ 
+--------------------------------------------------------------
+Programming Assignment 2, Problem 1, ICC
+--------------------------------------------------------------
+ 
+ipo: remark #11001: performing single-file optimizations
+ipo: remark #11006: generating object file /tmp/pbstmp.504807/tmp.2mNOaR9WQH/ipo_iccHQggrc.o
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/libpthread.a(libpthread.o): In function `sem_open':
+(.text+0x764d): warning: the use of `mktemp' is dangerous, better use `mkstemp'
+Matrix Size = 2048
+Base Sequential Symm-MatMult: 0.2 GFLOPS; Time = 38.542 sec; 
+Maximum threads allowed by system is: 12
+Requesting thrds=1
+3.0 GFLOPS with 1 threads; Time = 2.884 sec; 
+No differences found between base and test versions
+Requesting thrds=2
+5.7 GFLOPS with 2 threads; Time = 1.521 sec; 
+No differences found between base and test versions
+Requesting thrds=3
+8.4 GFLOPS with 3 threads; Time = 1.027 sec; 
+No differences found between base and test versions
+Requesting thrds=4
+11.9 GFLOPS with 4 threads; Time = 0.720 sec; 
+No differences found between base and test versions
+Requesting thrds=5
+12.2 GFLOPS with 5 threads; Time = 0.706 sec; 
+No differences found between base and test versions
+Requesting thrds=6
+14.4 GFLOPS with 6 threads; Time = 0.595 sec; 
+No differences found between base and test versions
+Requesting thrds=7
+15.2 GFLOPS with 7 threads; Time = 0.566 sec; 
+No differences found between base and test versions
+Requesting thrds=8
+19.6 GFLOPS with 8 threads; Time = 0.438 sec; 
+No differences found between base and test versions
+Requesting thrds=9
+19.9 GFLOPS with 9 threads; Time = 0.433 sec; 
+No differences found between base and test versions
+Requesting thrds=10
+19.8 GFLOPS with 10 threads; Time = 0.433 sec; 
+No differences found between base and test versions
+Requesting thrds=11
+18.8 GFLOPS with 11 threads; Time = 0.458 sec; 
+No differences found between base and test versions
+Requesting thrds=12
+19.7 GFLOPS with 12 threads; Time = 0.435 sec; 
+No differences found between base and test versions
+ 
+--------------------------------------------------------------
+Programming Assignment 2, Problem 2, GCC
+--------------------------------------------------------------
+ 
+Matrix Size = 128
+Base Sequential: 0.2 GFLOPS; Time = 2.748 sec; 
+Maximum threads allowed by system is: 12
+Requesting thrds=1
+1.5 GFLOPS with 1 threads; Time = 0.449 sec; 
+No differences found between base and test versions
+Requesting thrds=2
+2.0 GFLOPS with 2 threads; Time = 0.338 sec; 
+No differences found between base and test versions
+Requesting thrds=3
+2.4 GFLOPS with 3 threads; Time = 0.276 sec; 
+No differences found between base and test versions
+Requesting thrds=4
+3.4 GFLOPS with 4 threads; Time = 0.197 sec; 
+No differences found between base and test versions
+Requesting thrds=5
+3.3 GFLOPS with 5 threads; Time = 0.199 sec; 
+No differences found between base and test versions
+Requesting thrds=6
+4.2 GFLOPS with 6 threads; Time = 0.157 sec; 
+No differences found between base and test versions
+Requesting thrds=7
+4.2 GFLOPS with 7 threads; Time = 0.157 sec; 
+No differences found between base and test versions
+Requesting thrds=8
+6.0 GFLOPS with 8 threads; Time = 0.111 sec; 
+No differences found between base and test versions
+Requesting thrds=9
+6.0 GFLOPS with 9 threads; Time = 0.110 sec; 
+No differences found between base and test versions
+Requesting thrds=10
+6.0 GFLOPS with 10 threads; Time = 0.110 sec; 
+No differences found between base and test versions
+Requesting thrds=11
+6.0 GFLOPS with 11 threads; Time = 0.110 sec; 
+No differences found between base and test versions
+Requesting thrds=12
+6.0 GFLOPS with 12 threads; Time = 0.110 sec; 
+No differences found between base and test versions
+ 
+--------------------------------------------------------------
+Programming Assignment 2, Problem 2, ICC
+--------------------------------------------------------------
+ 
+ipo: remark #11001: performing single-file optimizations
+ipo: remark #11006: generating object file /tmp/pbstmp.504807/tmp.2mNOaR9WQH/ipo_icccQHSo8.o
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/libpthread.a(libpthread.o): In function `sem_open':
+(.text+0x764d): warning: the use of `mktemp' is dangerous, better use `mkstemp'
+Matrix Size = 128
+Base Sequential: 0.3 GFLOPS; Time = 2.239 sec; 
+Maximum threads allowed by system is: 12
+Requesting thrds=1
+1.9 GFLOPS with 1 threads; Time = 0.342 sec; 
+No differences found between base and test versions
+Requesting thrds=2
+3.3 GFLOPS with 2 threads; Time = 0.201 sec; 
+No differences found between base and test versions
+Requesting thrds=3
+4.0 GFLOPS with 3 threads; Time = 0.166 sec; 
+No differences found between base and test versions
+Requesting thrds=4
+5.6 GFLOPS with 4 threads; Time = 0.119 sec; 
+No differences found between base and test versions
+Requesting thrds=5
+5.5 GFLOPS with 5 threads; Time = 0.122 sec; 
+No differences found between base and test versions
+Requesting thrds=6
+6.9 GFLOPS with 6 threads; Time = 0.096 sec; 
+No differences found between base and test versions
+Requesting thrds=7
+6.8 GFLOPS with 7 threads; Time = 0.098 sec; 
+No differences found between base and test versions
+Requesting thrds=8
+9.5 GFLOPS with 8 threads; Time = 0.070 sec; 
+No differences found between base and test versions
+Requesting thrds=9
+9.5 GFLOPS with 9 threads; Time = 0.070 sec; 
+No differences found between base and test versions
+Requesting thrds=10
+9.5 GFLOPS with 10 threads; Time = 0.070 sec; 
+No differences found between base and test versions
+Requesting thrds=11
+9.4 GFLOPS with 11 threads; Time = 0.071 sec; 
+No differences found between base and test versions
+Requesting thrds=12
+9.4 GFLOPS with 12 threads; Time = 0.071 sec; 
+No differences found between base and test versions

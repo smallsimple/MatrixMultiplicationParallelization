@@ -1,0 +1,12 @@
+ 
+--------------------------------------------------------------
+--------------------------------------------------------------
+ 
+ 
+--------------------------------------------------------------
+--------------------------------------------------------------
+ 
+ipo: remark #11001: performing single-file optimizations
+ipo: remark #11006: generating object file /tmp/pbstmp.509468/tmp.StIbAW3iaQ/ipo_iccc9e4M3.o
+/usr/lib/gcc/x86_64-redhat-linux/4.4.6/../../../../lib64/libpthread.a(libpthread.o): In function `sem_open':
+(.text+0x764d): warning: the use of `mktemp' is dangerous, better use `mkstemp'

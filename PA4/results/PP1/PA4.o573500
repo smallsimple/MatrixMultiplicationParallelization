@@ -1,0 +1,40 @@
+ 
+--------------------------------------------------------------
+Programming Assignment 4, Problem 1
+--------------------------------------------------------------
+ 
+ 
+--- 1 core ---
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (1)  33.837660
+largest prime under 1000000000 is: 999999937
+ 
+--- 2 core ---
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (2)   8.926943
+ 
+--- 4 core ---
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (4)   9.832782
+ 
+--- 8 core ---
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (8)   4.159676
+ 
+--- 16 core ---
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (16)   1.883718
+ 
+--- 32 core ---
+largest prime under 1000000000 is: 999999937
+There are 50847534 primes less than or equal to 1000000000
+SIEVE (32)   0.920974
+ 
+--- 64 core ---
+There are 50847534 primes less than or equal to 1000000000
+largest prime under 1000000000 is: 999999937
+SIEVE (64)   0.485961

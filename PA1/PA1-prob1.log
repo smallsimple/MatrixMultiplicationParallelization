@@ -1,0 +1,5 @@
+/var/spool/batch/torque/mom_priv/jobs/466539.oak-batch.osc.edu.SC: line 26: cd: INP: No such file or directory
+cp: cannot stat `PA1-Prob1.c': No such file or directory
+icc: error #10236: File not found:  'PA1-Prob1.c'
+icc: command line error: no files specified; for help type "icc -help"
+/var/spool/batch/torque/mom_priv/jobs/466539.oak-batch.osc.edu.SC: line 30: ./PA1: No such file or directory

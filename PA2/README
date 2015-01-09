@@ -1,0 +1,30 @@
+To run the code:
+
+1) Put all these files in a directory at $HOME/pa2
+2) Edit the c files.
+3) Run "qsub runjob.sh" while in $HOME/pa2
+
+The file results.txt contains the output from runjob.sh using my tuned code.
+You should try to beat these values.
+
+Your submission should contain the following:
+
+- A report, similar to the solutions for programming assignment 1 (available on
+  carmen). This report should be turned in on carmen and on paper in class.
+    For each problem include:
+        - A write up of the transformations attempted (and why others weren't).
+        - A table of how performance varied with the different transformations.
+          Some values can be omitted here, I don't need to see all variations
+          of each parameter (e.g. number of threads).
+        - A table showing the performance of your best version for each
+          compiler with each of 1-12 threads.
+        - Show all performance values in Gflops
+        - Tables should be formatted. Do not copy paste the output from the code.
+        - The kernel for your best version (do not include the template code).
+    
+- On carmen only, you should also submit all of your code and the output files.
+
+Grading will be primarily based on effort: Your report should clearly show you
+attempted a reasonable number of transformations, including combining
+transformations that you've seen in class. Points will not be determined
+directly based on performance.

@@ -1,0 +1,2 @@
+PA1: performance improved by unrolling, permutation 
+PA2: parallelized by OpenMP
